@@ -15,7 +15,10 @@
     <main class="main">
         <div class="post-article">
             <div class="image-container">
-                <img src="./img/big-foot.jpg" alt="Big Foot Image" srcset="">
+                <img src="./img/big-foot.jpg"
+                srcset="small.jpg 480w, medium.jpg 1024w, large.jpg 1200w">
+                sizes="(max-width: 600px) 480px, (max-width: 1200px) 800px, 1200px" 
+                alt="Big Foot Image">
             </div>
             <h1 class="title">
                 My Bigfoot Sighting
